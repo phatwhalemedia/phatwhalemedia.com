@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+html,body
+{
+	height: 100%;
+    width: 100%;
+
+    overflow-x: hidden; 
+}
+
+body {
+	background-color: #ffffff;
+	color:#444444;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+.contentheader {
+	font-size: 2.75rem;
+}
+
+
+.footerstyle	{
+	background-color: #283e5e;
+}
+
+.footerheader {
+	font-weight: 700;
+}
+
+.footerlist	{
+	list-style-type: none;
+	text-align: right;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+.footerlist li	{
+	font-weight: 700;
+	color: white;
+}
+
+.footerlist li a {
+	color: white;
+	font-size: 1.25em;
+	font-weight: 300;
+}
+
+
+.footerinfo	{
+	color: white;
+	font-size: 1.25em;
+	font-weight: 300;
+}
+
+a:hover {
+	color: #571dbc;
+}
+
+
+.lightblueback	{
+background-color: #517dbc;
+}
+
+
+/*.mobilepicsize	{
+	width: 90%;
+}*/
+
+.navbar-custom {
+    background-color: #517dbc;
+}
+
+.nomargin	{
+	margin-bottom: 0.2rem;
+}
+
+.nav-item a {
+	color: white;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.nav-item a:hover {
+	color: #283e5e;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+
+/*.nav-item p {
+	color: white;
+	font-size: 1.75em;
+	font-weight: 400;
+	margin-bottom: 0;
+}*/
+
+.nav-link	{
+	padding: 0 ;
+}
+
+
+.navbar	{
+	padding: 1 1.5rem;
+}
+
+
+.navbarsmallicon	{
+	width: 50px;
+}
+
+.outline	{
+	border-color: black;
+	border-style: solid;
+	border-width: 10;
+}
+
+.center	{
+	position: absolute;
+	top: -55px;
+	
+}
+#tijuanadesign	{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.text-nav	{
+	padding: 0 1.5rem;	
+}
+
+h1 {
+
+	font-size: 4em;
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 700;
+}
+
+.mediumwidth	{
+	width:200px;
+}
+
+
+.picturesmall	{
+	width: 80%;
+}
+
+
+p {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.reminder	{
+	color: #ff00ff;
+}
+
+.profilepic {
+	width: 300px;
+}
+
+.navbar-nav a:hover {
+	background-color: #283e5e;
+	font-size: 1em;
+}
+
+.navbar-nav .nav-link {
+padding: 1% 40%;
+}
+
+
+@media screen and (max-width: 992px){
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 700;
+}
+.contentheader {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.25em;
+	font-weight: 300;
+}
+.footerlist	{
+	text-align: center;
+}
+
+
+.mediumwidth{
+	width: 100px;
+}
+
+.nav-link	{
+	padding: 0 ;
+}
+
+.center	{
+	top: -20px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+p {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.centercontent{
+	text-align: center;
+}
+
+.footerheader {
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.footerlist	{
+	list-style-type: none;
+	text-align: center;
+}
+
+.footerlist li	{
+	color: white;
+	font-weight: 700;
+
+}
+
+.footerlist li a {
+	color: white;
+	font-size: .95em;
+	font-weight: 300;
+
+}
+
+.footerinfo	{
+	color: white;
+	font-size: .95em;
+	font-weight: 300;
+}
+
+.center	{
+	top: -10px;
+}
+
+.contentheader	{
+	font-size: 1.5em;
+}
+
+.mediumwidth{
+	width: 70px;
+}
+
+.mobilepicsize	{
+	width: 50%;
+}
+
+
+.navbar-toggler{
+	padding: .75rem .75rem;
+}
+
+.nav-item a {
+	color: white;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.nav-item a:hover {
+	color: #283e5e;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.navbarsmallicon	{
+	width: 50px;
+}
+
+.picturesmall	{
+	width: 150%
+}
+
+.profilepic {
+	width: 240px;
+}
+
+.navbar-nav a:hover {
+background-color: #283e5e;
+}
+
+
+}
+
+
+
