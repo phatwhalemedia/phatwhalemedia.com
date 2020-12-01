@@ -9,7 +9,7 @@
 				<div class="navbar-nav ml-auto">
 					<a class="nav-item nav-link align-self-center text-white" href="index.php">Inicio</a>
 					<a class="nav-item nav-link align-self-center text-white" href="about.php">Acerca de</a>
-					<a class="nav-item nav-link align-self-center text-white" href="index.php#tijuanadesign">Contacto</a>
+					<a class="nav-item nav-link align-self-center text-white" href="contacto.php">Contacto</a>
 				</div>
 			</div>
 		</div>

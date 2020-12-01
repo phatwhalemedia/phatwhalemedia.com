@@ -1,3 +1,4 @@
+<?php define ('TITLE', 'Phat Whale Media'); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,8 +7,8 @@
 	<meta name="keywords" content="publicidad, multimedia, SEO, graphic design, fotografia, diseño web, marca, advertising, audio, video">
 	<meta name="description" content="Servicios de publicidad impresa y digital en Tijuana. Phat Whale Media se dedica a la producción de contenidos multimedia y estrategia de marca para negocios.">
 	<meta name="author" content="Francisco Cota, Phat Whale Media">
-	<title>Phat Whale Media - Acerca de</title>
-	<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">  
+	<title><?= TITLE ?></title>
+	<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/a252fe7140.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css\styles.css">
@@ -32,7 +33,6 @@
 				<img class="img-fluid mediumwidth center" src="images/tjdesign.png" alt="">
 			</div>
 		</div>
-
 	</main>
 	<?php include 'footer.php'; ?>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
