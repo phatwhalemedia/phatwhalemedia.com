@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     $mail->Host         = 'mail.phatwhalemedia.com';
     $mail->SMTPAuth     = true;
     $mail->Username     = 'mailer@phatwhalemedia.com';
-    $mail->Password     = 'PWM@dm1N';
+    $mail->Password     = '********';
     $mail->SMTPSecure   = 'ssl';
     $mail->Port         = 465;
 //Headers
